@@ -1,0 +1,111 @@
+body{
+    background-image: url("japon.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    color: white;
+}
+
+h1{
+    font-size: 3rem;
+    letter-spacing: 3px;
+    text-shadow: 0 0 20px rgba(255,255,255,0.7);
+}
+
+h2,h3{
+    margin: 10px;
+}
+
+.transitions-section{
+    margin: 30px auto;
+}
+
+.transition-button{
+    width: 85%;
+    max-width: 1200px;
+    background: rgba(255,255,255,0.92);
+    color: hsl(354, 87%, 50%);
+    border: none;
+    border-radius: 25px;
+    padding: 25px;
+    cursor: default;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    transition: all .4s ease;
+}
+
+.transition-button:hover{
+    transform: (1.02);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.6);
+}
+
+table{
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+table td{
+    border: 2px solid hsl(354, 87%, 50%);
+    padding: 20px;
+    background: white;
+    color: hsl(354, 87%, 50%);
+    font-weight: bold;
+}
+
+table img{
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+}
+
+.brillo{
+    margin-top: 40px;
+    border-radius: 20px;
+    transition: .5s;
+    box-shadow: 0 0 25px rgba(0,0,0,.5);
+}
+
+.brillo:hover{
+    transform: scale(1.08);
+    box-shadow: 0 0 50px white;
+}
+
+img{
+    border-radius: 15px;
+}
+
+.volver{
+    position:fixed;
+
+    top:20px;
+    left:20px;
+
+    background:white;
+    color:#d10000;
+
+    padding:12px 18px;
+
+    border-radius:10px;
+
+    text-decoration:none;
+    font-weight:bold;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.4);
+
+    transition:0.3s;
+}
+body {
+    color: white;
+    text-align: center;
+}
+.volver:hover{
+    transform:scale(1.08);
+    background:#d10000;
+    color:white;
+}
