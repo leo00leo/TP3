@@ -105,7 +105,7 @@ body {
 
 .sidebar{
     width:220px;
-    min-height:1000vh;
+    min-height:1150vh;
     background-color:hsl(46, 100%, 49%);
     color:hsl(46, 100%, 49%);
     padding:20px;
@@ -212,7 +212,7 @@ body {
 
     background: #f2c300;
 
-    color: #001244;
+    color: hsl(224, 100%, 13%);
 
     border: none;
 
@@ -296,4 +296,79 @@ body {
 }
 html {
   scroll-behavior: smooth;
+}
+
+table {
+    width: 100%;
+    max-width: 1400px;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: rgba(20, 20, 20, 0.95);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+}
+
+thead {
+    background:  hsl(229, 49%, 21%);
+}
+
+thead th,
+thead td {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+}
+
+
+td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.15);
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: rgba(255,255,255,0.05);
+}
+
+
+tbody tr:hover {
+    background-color: hsla(46, 100%, 49%, 0.541);
+    transition: 0.3s;
+}
+
+
+table img {
+    max-width: 180px;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+table img:hover {
+    transform: scale(1.08);
+}
+
+
+#escudos table {
+    background: rgba(10,10,10,0.95);
+}
+
+
+#goleadores table {
+    font-size: 14px;
+}
+
+#goleadores thead tr:first-child {
+    background: hsl(229, 49%, 21%);
+}
+
+#goleadores thead tr:nth-child(2) {
+    background: #222;
 }
